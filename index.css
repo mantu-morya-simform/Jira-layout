@@ -189,6 +189,7 @@ body {
 .sidebar-list {
   list-style: none;
   line-height: 2;
+  width: 80%;
 }
 
 .size-6 {
@@ -197,6 +198,7 @@ body {
 }
 
 .sidebar-list-item {
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -212,4 +214,16 @@ body {
   align-items: center;
   justify-content: center;
   padding-right: 10px;
+}
+
+.sidebar-list-item:hover {
+  cursor: pointer;
+  color: #0a65e4;
+  background: #a5d8ff;
+  border-radius: 5px;
+}
+
+.aside-header:hover {
+  cursor: pointer;
+  color: #0a65e4;
 }
