@@ -21,7 +21,7 @@ body {
 .parent-container {
   border: 1px solid gray;
   display: grid;
-  grid-template-columns: 0.2fr 1fr;
+  grid-template-columns: 267px 1fr;
   grid-template-rows: repeat(1, 1fr);
 }
 
@@ -115,4 +115,101 @@ body {
   height: 30px;
   margin-top: 10px;
   padding: 6px 12px;
+}
+
+/* Styling Sidebar */
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.aside-top {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #ececec;
+}
+
+.aside-header {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 17px;
+  line-height: 1.3;
+}
+
+.sidebar-planing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 17px;
+  line-height: 1.3;
+  padding-top: 10px;
+}
+
+.planing-heading-para {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.planning-heading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 40%;
+}
+
+.planing-heading-lunar {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #0a65e4;
+}
+
+.planning-heading div p {
+  color: #0a65e4;
+}
+
+.sidebar-planing a {
+  text-decoration: none;
+}
+
+.sidebar-list {
+  list-style: none;
+  line-height: 2;
+}
+
+.size-6 {
+  height: 24px;
+  width: 24px;
+}
+
+.sidebar-list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.sidebar-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
 }
